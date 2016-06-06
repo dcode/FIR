@@ -47,9 +47,10 @@ cat << EOF
 │                                                                            │
 │                                                                            │
 │  Provioning complete.                                                      │
-│  Run the server as:                                                        │
-│   sudo -s -u fir; cd /home/fir; ./manage.py runserver 0.0.0.0:8000         │
-│                                                                            │
+│  Run the development server with:                                          │
+│    sudo -s -u fir                                                          │
+│    cd /home/fir; ./manage.py runserver 0.0.0.0:8000                        │
 │  Login with development username/password:  admin/admin or dev/dev         │
 │                                                                            │
 └────────────────────────────────────────────────────────────────────────────┘
+EOF
